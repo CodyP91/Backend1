@@ -6,9 +6,10 @@ app = Flask(__name__)
 # Database connection configuration
 db_config = {
     'host': 'localhost',
-    'user': 'your_username',
-    'password': 'your_password',
-    'database': 'your_database'
+    'user': 'root',
+    'password': 'password',
+    'database': 'candy_db',
+    'port' : '3306'
 }
 
 # Establish database connection
